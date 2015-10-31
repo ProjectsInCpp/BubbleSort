@@ -1,18 +1,26 @@
-﻿Build started 2015-02-20 20:33:06.
-     1>Project "E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\BubbleSortBT\BubbleSortBT.vcxproj" on node 2 (Build target(s)).
+﻿Build started 10/31/2015 3:26:36 PM.
+     1>Project "D:\Clouds\OneDrive\GitHub\BubbleSort\BubbleSortBT\BubbleSortBT.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\BubbleSortBT\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib ColoredBubbleSortBT.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Clouds\OneDrive\GitHub\BubbleSort\BubbleSortBT\include /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib ColoredBubbleSortBT.cpp DatebaseBT.cpp Main.cpp SortbaseBT.cpp Utils.cpp
          ColoredBubbleSortBT.cpp
+         DatebaseBT.cpp
+         Main.cpp
+         SortbaseBT.cpp
+         Utils.cpp
+     1>Utils.cpp(8): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Clouds\OneDrive\GitHub\BubbleSort\BubbleSortBT\include /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\koryt\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\Debug\BubbleSortBT.exe" /INCREMENTAL /NOLOGO "E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\BubbleSortBT\lib\pdcurses.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\Debug\BubbleSortBT.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ColoredBubbleSortBT.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Clouds\OneDrive\GitHub\BubbleSort\Debug\BubbleSortBT.exe" /INCREMENTAL /NOLOGO D:\Clouds\OneDrive\GitHub\BubbleSort\BubbleSortBT\lib\pdcurses.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Clouds\OneDrive\GitHub\BubbleSort\Debug\BubbleSortBT.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ColoredBubbleSortBT.obj
          Debug\DatebaseBT.obj
          Debug\Main.obj
          Debug\SortbaseBT.obj
          Debug\Utils.obj
          "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
-         BubbleSortBT.vcxproj -> E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\Debug\BubbleSortBT.exe
-     1>Done Building Project "E:\Nauka Wroclaw\Wlasna\Programowanie\C++\BubbleSortBT\BubbleSortBT v1.5 - Copy\BubbleSortBT\BubbleSortBT\BubbleSortBT.vcxproj" (Build target(s)).
+         BubbleSortBT.vcxproj -> D:\Clouds\OneDrive\GitHub\BubbleSort\Debug\BubbleSortBT.exe
+     1>Done Building Project "D:\Clouds\OneDrive\GitHub\BubbleSort\BubbleSortBT\BubbleSortBT.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.28
+Time Elapsed 00:00:05.80
